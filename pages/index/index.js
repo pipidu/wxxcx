@@ -1,7 +1,7 @@
 Page({
   data: {
     htmlText: '<h1>loading...</h1>',
-    msg: "正在加载，如长时间为出现登录文字，请重启小程序"
+    msg: "正在加载，如长时间未出现登录文字，请尝试重启小程序"
   },
   onLoad() {
     wx.setNavigationBarTitle({ title: 'Du' })
