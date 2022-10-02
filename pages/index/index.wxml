@@ -1,0 +1,9 @@
+<view class="mb20">
+  <navigator class="red" url="../../pages/inf/index" open-type="redirect" 
+  hover-class="other-navigator-hover">{{dislogin}}</navigator>
+  <text>{{msg}}</text>
+  <text>{{wxxx}} </text>
+  <text>{{cip}} </text>
+  <wxParse nodes="{{htmlText}}" language="html"></wxParse>
+</view>
+

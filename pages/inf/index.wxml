@@ -1,0 +1,9 @@
+<view class="mb20">
+  <wxParse nodes="{{htmlText}}" language="html"></wxParse>
+  <view class="message-copytext" bindtap="copywxtap">点我复制ID到剪切板</view>
+  <button bindtap='sta' type="primary" plain="true">检查设备状态</button>
+  <text>{{onlinesta}}</text>
+  <button bindtap='getqq' type="primary" plain="true">获取已登录QQ</button>
+  <text>{{getqqsta}}</text>
+</view>
+
