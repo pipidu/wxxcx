@@ -51,6 +51,15 @@ Page({
       }
     })
   },
+  onShareAppMessage: function () {
+
+    return {
+    title: '我也不知道这叫啥',
+    desc: 'QQ免登录打开QQ邮箱、QQ空间、QQ群管的小程序',
+    path: '/pages/index/index',
+    imageUrl: '/shareimg/mzl.gif'
+    }
+    }
 })
 
  
