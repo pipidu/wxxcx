@@ -1,0 +1,11 @@
+<view class="mb20">
+  <wxParse class="message-copytext" bindtap="copywxtap" nodes="{{htmlText}}" language="html"></wxParse>
+  <button bindtap='sta' type="primary" plain="true">检查设备状态</button>
+  <text>{{onlinesta}}</text>
+  <wxParse nodes="{{htmlText2}}" language="html"></wxParse>
+  <button bindtap='up' type="primary" plain="true">下一张</button>
+  <wxParse nodes="{{htmlText2}}" language="html"></wxParse>
+  <button bindtap='down' type="primary" plain="true">上一张</button>
+  <text bindtap="gotox" class="bottom">使用说明</text>
+</view>
+

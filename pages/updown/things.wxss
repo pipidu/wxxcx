@@ -1,0 +1,10 @@
+/* pages/updown/things.wxss */
+.bottom{
+  display: flex;
+  position: fixed;
+  bottom: 70rpx;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.473);
+  text-decoration:underline;
+}

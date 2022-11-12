@@ -5,6 +5,6 @@
     "compileHotReLoad": true,
     "autoAudits": false
   },
-  "projectname": "skd",
-  "libVersion": "2.25.4"
+  "projectname": "miniprogram-2",
+  "libVersion": "2.27.1"
 }

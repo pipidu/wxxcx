@@ -1,9 +1,11 @@
 <view class="mb20">
-  <navigator class="red" url="../../pages/inf/index" open-type="redirect" 
-  hover-class="other-navigator-hover">{{dislogin}}</navigator>
-  <text>{{msg}}</text>
-  <text>{{wxxx}} </text>
-  <text>{{cip}} </text>
+  <wxParse nodes="{{Titlex}}" language="html"></wxParse>
+  <view>
+  <button  	loading='{{succ}}' disabled='{{succ}}' class='center' bindtap='togo' type="primary"   style="background-color:#CCFFFF;color:#000000d5" >翻页笔</button>
+  </view>
+  <text class="bottom1">{{msg}}</text>
+  <text class="bottom1">{{wxxx}} </text>
+  <text class="bottom2">{{cip}} </text>
   <wxParse nodes="{{htmlText}}" language="html"></wxParse>
 </view>
 

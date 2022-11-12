@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-	"pages/inf/index"
+  "pages/updown/index",
+  "pages/updown/things"
   ],
   "window": {
     "backgroundTextStyle": "light",

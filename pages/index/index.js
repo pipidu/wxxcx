@@ -1,7 +1,9 @@
 Page({
   data: {
     htmlText: '<h1>loading...</h1>',
-    msg: "正在加载，如长时间未出现登录文字，请尝试重启小程序"
+    Titlex: '<h1>功能列表:</h1>',
+    msg: "正在加载",
+    succ: true
   },
   onLoad() {
     wx.setNavigationBarTitle({ title: 'Du' })
@@ -27,7 +29,7 @@ Page({
             url: `https://service-mtqca1ok-1301441782.gz.apigw.tencentcs.com/release/?pages=login&code=${res.code}`,
             success(res) {
               that.setData({wxxx: res.data });
-
+              that.setData({succ: false});
               wx.setStorage({
                 key:"wxxx",
                 data: res.data
@@ -36,7 +38,6 @@ Page({
                 key: 'wxxx',
                 success (res) {
                   console.log(res.data)
-                  that.setData({dislogin: '点我登录'})
                   that.setData({msg: ''})
                 }
               })
@@ -59,7 +60,12 @@ Page({
     path: '/pages/index/index',
     imageUrl: '/shareimg/mzl.gif'
     }
-    }
+    },togo() {
+      wx.navigateTo({
+        url: '../../pages/updown/index',
+      })
+  
+       },
 })
 
  

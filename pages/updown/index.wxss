@@ -1,0 +1,9 @@
+.bottom{
+  display: flex;
+  position: fixed;
+  bottom: 70rpx;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 68, 255);
+  text-decoration:underline;
+}

@@ -1,0 +1,5 @@
+<view class="mb20">
+  <wxParse nodes="{{xfvx}}" language="html"></wxParse>
+  <text  bindtap="copyurls"  class ="bottom">{{urls}}</text>
+</view>
+
