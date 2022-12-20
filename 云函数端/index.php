@@ -1,7 +1,7 @@
 <?php 
 error_reporting(0);
-$appid = "wx6c96ae5ef9fcffbe";
-$secret ="1e0d2d8b65d6bfff4e105f12f3110e22";
+$appid = "这个不能开源";
+$secret ="这个不能开源";
 
 
 $pages = $_GET['pages'];
